@@ -1,4 +1,8 @@
-# Unsorted Goals
+
+## Task List
+<details>
+  <summary>Unsorted Goals</summary>
+  
 - [ ] `notify-send` command to vnc user when using VNC in addition to console out
 - [ ] Different screen resolutions:
   - https://superuser.com/questions/184338/how-to-change-screen-resolution-of-vnc-server-without-restarting-it
@@ -7,8 +11,12 @@
 - [ ] Check reservation before running a test to alert if not on reservation
 - [ ] RDP Support
   - https://stackoverflow.com/questions/14481882/login-to-remote-using-mstsc-admin-with-password
+  
+</details>
 
-#v0.2 Task List - Regression Update
+<details>
+  <summary>v0.2 Task List - Regression Update</summary>
+  
 - [x] VNC button will do the same as open-->New x11vnc session IF vnc is not enabled inside of testbed
 - [x] Do size check before installing DB
 
@@ -87,7 +95,11 @@
   - [x] Option to add testbed configs used to run tests
 - [ ] Export Plots and Report as PDF to select location
 
-#v0.19 Task List - Creature Comfort Update
+</details>
+
+<details>
+  <summary>v0.19 Task List - Creature Comfort Update</summary>
+
 ## Final Checklist Before Release
 - [x] Excel Repackager
 - [x] fix stopping other scripts when running new test on different testbed
@@ -154,9 +166,10 @@
 - [x] Error tracking defaults to currently active testbed for sourcing
 - [x] Running tests automatically defaults to currently selected testbed
 
+</details>
 
-
-# v0.18 Task List
+<details>
+  <summary>v0.18 - Task List</summary>
 
 ## Test Before Push
 - [x] Update Default Testbeds with HWT/SWT Information
@@ -215,7 +228,11 @@
 - [x] Testbed persists on restarts (keeps last selected)
 - [x] Can't email unless email address is legitimate
 
-# v.17 Task List
+</details>
+
+<details>
+  <summary>v0.17 Task List</summary>
+
 - [x] Read global vnc ports in from files on startup (and fix weird newlines)
 - [x] File -> Import all the .ini files
   - [x] Plots
@@ -225,13 +242,20 @@
 - [x] Kill all vncservers running on testbed (server-side kill regardless of stored sessions)
 - [X] 'Latest' iTACS DB keyword to always use the latest iTACS DB Version
 
+</details>
 
-# v0.16 Task List
+<details>
+  <summary>v0.16 Task List</summary>
+
 ## Automation
 - [x] ICL1 Automation
   - [x] Get Log Files / Serial out Of ScriptViewer into Python
 
-# v0.15 Task List
+</details>
+
+<details>
+  <summary>v0.15 Task List</summary>
+
 ## General
 - [x] Sort Testbeds in Combo Box by name and not date added
 - [x] Close all stored VNC sessions
@@ -289,7 +313,11 @@ template=X<br>etc...
 - [x] <b>CONVERT EXISTING TAPS PLOT TO HYPERVISOR TEMPLATE</b>
   - Able to select test to convert from within multi-plot taps xml
 
-# v0.14 Task List
+</details>
+
+<details>
+  <summary>v0.14 Task List</summary>
+
 ## general
 - [x] Check Function to create empty config file for global config if there is none
 - [x] Add 'Both' option for X11/X11vnc forwarding
@@ -310,3 +338,4 @@ template=X<br>etc...
 - [x] prompt to kill all active vncservers on exit (might want them up in case of quick hypervisor restart or something)
 - [x] button to make new vncserver session to have multiple vnc windows
 - [x] Alert user if vncviewer is not installed and they have selected x11vnc
+</details>
